@@ -1,1 +1,1 @@
-init_1.txt
+init/init_1.txt
