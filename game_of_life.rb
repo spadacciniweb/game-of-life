@@ -35,7 +35,7 @@ def read_input()
     file.each_char { |char|
         if not(char =~ /[\.*\n ]/)
             puts "error in file #{file_input}"
-            print "-#{char}-"
+            print "'#{char}'"
             exit(1)
         else
             print char
